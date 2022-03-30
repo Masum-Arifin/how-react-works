@@ -1,11 +1,11 @@
 import './App.css';
 import Device from './components/Device/Device';
-
+import Watch from './components/Watch/Watch';
 function App() {
   return (
     <div className="App">
-      
-      <Device></Device>
+      <Device name="Iphone" ></Device>
+      <Watch></Watch>
     </div>
   );
 }
