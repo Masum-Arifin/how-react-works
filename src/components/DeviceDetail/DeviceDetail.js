@@ -1,11 +1,11 @@
-// import React from 'react';
+import React from 'react';
 
-// const DeviceDetail = (props) => {
-//     return (
-//         <div>
-//             <p>price:{props.price}</p>
-//         </div>
-//     );
-// };
+const DeviceDetail = (props) => {
+    return (
+        <div>
+            <p>price:{props.price}</p>
+        </div>
+    );
+};
 
-// export default DeviceDetail;
+export default DeviceDetail;
